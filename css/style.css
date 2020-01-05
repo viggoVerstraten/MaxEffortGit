@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.listview {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 10vh;
+    align-items: center;
+    transition: 0.2s;
+}
+
+#listView{
+    transition: 0.2s;
+}
+
+
+.background {
+    background-color: #e2e2e2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    filter: blur(8px);
+}
+
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.listview-navbar {
+    cursor: pointer;
+    list-style-type: none;
+    margin: 20px;
+}
+
+
+.kop {
+    height: 100vh;
+
+}
+
+.parallax{
+    min-height: 100vh;
+    background: transparent;
+}
+
+
+
+.maxEffort{
+    font-size: 60px;
+    font-family: Fjalla One, sans-serif;
+    position: relative;
+    right: 50%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2a2a2a;
+}
+
+#personal_text{
+    font-size: 25px;
+    width: 40%;
+    right: 20%;
+    font-weight: normal;
+}
+
+.welkomText{
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home{
+    padding-top: 10vh;
+    height: 100vh;
+    background-color: #f6f6f6;
+    text-align: center;
+    align-items: center;
+}
+
+.line{
+    background-color: black;
+    width: 8%;
+    height: 0.5vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+}
+
+.pakketten{
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.reviewsButton{
+    background-color: grey;
+    border-radius: 4px;
+    padding: 0.25%;
+}
+
+.reviewsButton-active{
+    background-color: dodgerblue;
+}
+
+
+
+
+

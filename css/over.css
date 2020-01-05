@@ -1,0 +1,69 @@
+.over {
+    background-color: #f6f6f6;
+    height: 140vh;
+    padding: 8%;
+}
+
+
+.aboutText {
+    width: 50%;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    height: 30vh;
+}
+
+.aboutText > p {
+    margin: 3% 0;
+    font-family: Arial, sans-serif;
+    line-height: 130%;
+}
+
+.work {
+    width: 30%;
+    height: 80%;
+    margin-left: 20%;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+    transform: translateX(20px);
+}
+
+.explain {
+    width: 35%;
+    height: 35%;
+    opacity: 1;
+    margin-top: -10%;
+    transition: 0.5s all ease-in-out;
+    transform: translateY(20px);
+}
+
+
+.active{
+    opacity: 1;
+    transform: translateX(-20px);
+}
+
+.active-explain{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.flexDisplay{
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    .over{
+        height: 75vh;
+    }
+
+    .explain{
+        height: 25%;
+        width: 50%;
+        margin-top: 20%;
+    }
+
+    .aboutText>p{
+        width: 120%;
+        line-height: 150%;
+    }
+}

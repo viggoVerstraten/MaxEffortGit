@@ -1,0 +1,76 @@
+.galerij{
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 10vh 5vw;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-gap: 0;
+}
+
+.photobooth-3-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+    height: 25vh;
+    margin: 0 12.5%;
+    align-self: end;
+
+}
+
+.photobooth-3-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+    height: 25vh;
+    margin: 0 12.5%;
+    align-self: start;
+
+}
+
+.photobooth-1{
+    background-color: blue;
+    display: grid;
+    height: 95%;
+    width: 95%;
+}
+
+.video-youtube{
+    display: grid;
+    grid-template-columns: auto;
+    height: 25vh;
+}
+
+@media screen and (max-width: 980px) {
+
+    .photobooth-1{
+        background-color: blue;
+        display: grid;
+        height: 95%;
+        width: 95%;
+    }
+
+    .photobooth-3-1{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 0;
+        height: 15vh;
+        margin: 0 12.5%;
+        align-self: end;
+
+    }
+
+    .photobooth-3-2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 0;
+        height: 15vh;
+        margin: 0 12.5%;
+        align-self: start;
+
+    }
+
+    .galerij{
+        height: 70vh;
+    }
+}

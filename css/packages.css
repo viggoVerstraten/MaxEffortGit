@@ -1,0 +1,131 @@
+.grid-container-header {
+    display: grid;
+    padding-top: 5vh;
+    text-align: center;
+    grid-template-columns: auto;
+    font-size: 48px;
+}
+
+.grid-container-header2 {
+    display: grid;
+    margin-top: 1%;
+    text-align: center;
+    grid-template-columns: auto;
+    font-size: 24px;
+}
+
+.grid-container-middle {
+    height: 60vh;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.grid-item-header {
+    display: grid;
+    text-align: center;
+    height: 10vh;
+    align-items: center;
+    padding: 1.5%;
+}
+
+.grid-item-middle {
+    height: 70vh;
+    display: grid;
+    margin: 10%;
+    background-color: white;
+    border: 2px solid #909090;
+    box-shadow: 5px 10px #858585;
+}
+
+.grid-item-middle-ex {
+    display: grid;
+    align-items: center;
+    height: 40vh;
+    margin: 5% 20%;
+    background-color: white;
+    border: 2px solid #909090;
+    box-shadow: 5px 10px #858585;
+}
+
+
+#services {
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.kop-tekst {
+    font-size: 25px;
+    padding: 5%;
+    height: 15vh;
+    border-bottom: 1px solid black;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.bottom-text{
+    font-size: 30px;
+    padding: 2% 0;
+    margin: 0 10%;
+    width: 80%;
+    text-align: center;
+    overflow: scroll;
+}
+
+.pakketten-listview{
+    text-align: left;
+    list-style-type: circle;
+    height: 80%;
+}
+
+.no-cursor{
+    cursor: default;
+    margin: 0;
+}
+
+.button-center-packages{
+    width: 40%;
+    height: 10%;
+    background-color: #73de61;
+    font-size: 20px;
+    margin: 5% 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .grid-container-middle{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .grid-item-middle{
+        height: 40vh;
+        width: 65%;
+        text-align: center;
+        margin: 5% 17.5%;
+    }
+
+    .pakketten{
+        height: 155vh;
+    }
+
+    .bottom-text{
+        font-size: 40px;
+    }
+
+    .kop-tekst{
+        font-size: 60px;
+    }
+
+    .Instagram_png{
+        height: 4vh;
+    }
+
+    .facebook_png{
+        height: 5vh;
+    }
+}
+
+
+
