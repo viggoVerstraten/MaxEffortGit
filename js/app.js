@@ -7,6 +7,9 @@ let aboutPage = document.getElementById('aboutpage');
 let galleryPage = document.getElementById('galerij');
 let contactPage= document.getElementById('contact');
 
+//set From
+let messageForm = document.getElementById('message');
+
 //Set images
 let image = document.getElementById('work');
 let imageBottom = document.getElementById('explain');
@@ -20,6 +23,9 @@ const contactButton= document.getElementById('contactButton');
 const whatsappButton = document.getElementById('whatsapp');
 const instagramButton = document.getElementById('instagram');
 const facebookButton = document.getElementById('facebook');
+const package1Button = document.getElementById('pakket-1-button');
+const package2Button = document.getElementById('pakket-2-button');
+const package3Button = document.getElementById('pakket-3-button');
 
 //Set Button Actions
 pakkettenButton.addEventListener('click', scrolldownPakketten);
@@ -43,6 +49,29 @@ $(window).scroll(function() {
     });
 });
 
+package1Button.addEventListener('click', function () {
+   messageForm.value = 'Ik wil graag gebruik maken van de eerste optie: pakket 1.';
+    window.scrollTo({
+        top: contactPage.offsetTop,
+        behavior: "smooth"
+    });
+});
+
+package2Button.addEventListener('click', function () {
+    messageForm.value = 'Ik wil graag gebruik maken van de tweede optie: pakket 2.';
+    window.scrollTo({
+        top: contactPage.offsetTop,
+        behavior: "smooth"
+    });
+});
+
+package3Button.addEventListener('click', function () {
+    messageForm.value = 'Ik wil graag gebruik maken van de derde optie: pakket 3.';
+    window.scrollTo({
+        top: contactPage.offsetTop,
+        behavior: "smooth"
+    });
+});
 
 function scrolldownPakketten(){
     window.scrollTo({

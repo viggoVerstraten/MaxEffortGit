@@ -66,6 +66,13 @@
 
 .whatsapp_png{
     height: 6vh;
+    margin-left: 5%;
+
+}
+
+.clickable{
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -89,14 +96,15 @@
     }
 
     .Instagram_png{
-        height: 3vh;
+        height: 6vh;
     }
 
     .facebook_png{
-        height: 4vh;
+        height: 8.5vh;
     }
 
     .whatsapp_png{
-        height: 4vh;
+        height: 6vh;
+        margin-left: 5%;
     }
 }
