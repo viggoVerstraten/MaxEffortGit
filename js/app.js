@@ -73,6 +73,9 @@ package3Button.addEventListener('click', function () {
     });
 });
 
+
+
+//functions
 function scrolldownPakketten(){
     window.scrollTo({
         top: pakkettenPage.offsetTop,

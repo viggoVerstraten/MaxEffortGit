@@ -8,12 +8,16 @@
     grid-gap: 0;
 }
 
+#photobooth-phone{
+    display: none;
+}
+
 .photobooth-3-1{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 0;
-    height: 25vh;
-    margin: 0 12.5%;
+    height: 20vh;
+    margin: 0 20%;
     align-self: end;
 
 }
@@ -23,7 +27,7 @@
     grid-template-columns: auto auto auto;
     padding: 0;
     height: 25vh;
-    margin: 0 12.5%;
+    margin: 0 20%;
     align-self: start;
 
 }
@@ -52,25 +56,35 @@
 
     .photobooth-3-1{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto ;
         padding: 0;
         height: 15vh;
-        margin: 0 12.5%;
-        align-self: end;
+        margin: 0 10%;
 
     }
 
     .photobooth-3-2{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto ;
         padding: 0;
         height: 15vh;
-        margin: 0 12.5%;
-        align-self: start;
+        margin: 0 10%;
+        align-self: center;
+    }
 
+    .photobooth-3-3{
+        display: grid;
+        grid-template-columns: auto auto ;
+        padding: 0;
+        height: 15vh;
+        margin: 0 10%;
     }
 
     .galerij{
         height: 70vh;
+    }
+
+    #photobooth-phone{
+        display: grid;
     }
 }

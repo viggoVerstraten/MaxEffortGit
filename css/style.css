@@ -119,6 +119,13 @@ body {
     background-color: dodgerblue;
 }
 
+@media screen and (max-width: 1000px) {
+    .listview{
+        justify-content: space-around;
+        font-size: 30px;
+    }
+}
+
 
 
 

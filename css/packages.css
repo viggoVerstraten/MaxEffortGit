@@ -18,7 +18,7 @@
     height: 60vh;
     display: grid;
     text-align: center;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .grid-item-header {
@@ -32,6 +32,7 @@
 .grid-item-middle {
     height: 70vh;
     display: grid;
+    grid-template-rows: 25% 75%;
     margin: 10%;
     background-color: white;
     border: 2px solid #909090;
@@ -83,6 +84,7 @@
 .no-cursor{
     cursor: default;
     margin: 0;
+    font-size: 22px;
 }
 
 .button-center-packages{
@@ -107,7 +109,7 @@
     }
 
     .pakketten{
-        height: 200vh;
+        height: 260vh;
     }
 
     .bottom-text{
